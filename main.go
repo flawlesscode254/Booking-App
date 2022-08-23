@@ -44,5 +44,12 @@ func main() {
 	fmt.Println(a % b)
 
 	// Arrays implementation in Go
-	
+	var arrayStrings = [4]string{"A", "B", "C", "D"}
+	fmt.Println(arrayStrings)
+
+	var arrayInts = [4]int{1, 2, 3, 4}
+	fmt.Println(arrayInts)
+
+	var arrayBools = [2]bool{false, true}
+	fmt.Println(arrayBools)
 }
