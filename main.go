@@ -57,4 +57,8 @@ func main() {
 	counterArr[2] = 4
 	fmt.Println(counterArr)
 	fmt.Println(len(counterArr))
+
+	// No specified size array
+	var trippy = []int{1, 2, 3, 4, 5}
+	fmt.Println(trippy)
 }
