@@ -116,4 +116,16 @@ func main() {
 	for i := 1; i < len(test)+1; i++ {
 		fmt.Println(i)
 	}
+
+	// Objects in GO
+	type User struct {
+		name  string
+		email string
+	}
+
+	var person1 User
+	person1.name = "Duncan"
+	person1.email = "denzme414@gmail.com"
+
+	fmt.Println(person1)
 }
