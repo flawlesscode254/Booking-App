@@ -60,5 +60,6 @@ func main() {
 
 	// No specified size array
 	var trippy = []int{1, 2, 3, 4, 5}
+	trippy = append(trippy, 23)
 	fmt.Println(trippy)
 }
