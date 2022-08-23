@@ -62,4 +62,11 @@ func main() {
 	var trippy = []int{1, 2, 3, 4, 5}
 	trippy = append(trippy, 23)
 	fmt.Println(trippy)
+
+	// Grouped variables
+	var (
+		f string = "A"
+		g int    = 4
+	)
+	fmt.Println(f, g)
 }
