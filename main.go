@@ -52,4 +52,9 @@ func main() {
 
 	var arrayBools = [2]bool{false, true}
 	fmt.Println(arrayBools)
+
+	var counterArr [3]int
+	counterArr[2] = 4
+	fmt.Println(counterArr)
+	fmt.Println(len(counterArr))
 }
