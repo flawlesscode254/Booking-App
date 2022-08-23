@@ -69,4 +69,33 @@ func main() {
 		g int    = 4
 	)
 	fmt.Println(f, g)
+
+	// Go constants
+	const attr = "Swelled"
+	fmt.Println(attr)
+
+	// Floats
+	var floater float32 = 3.43
+	fmt.Println(floater)
+
+	// If statements
+	if 20 < 45 {
+		fmt.Println(true)
+	}
+
+	fmt.Println(20 < 45)
+	fmt.Println(45 < 20)
+
+	var sa = 20
+	var se = 45
+
+	fmt.Println(sa > se)
+
+	if sa < se {
+		fmt.Println(true)
+	} else if sa > 100 {
+		fmt.Println(false)
+	} else {
+		fmt.Println(true)
+	}
 }
