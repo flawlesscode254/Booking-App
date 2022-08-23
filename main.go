@@ -105,4 +105,15 @@ func main() {
 	case 24:
 		fmt.Println(true)
 	}
+
+	// For loops implementation
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+	}
+
+	// For loops from array
+	var test = [5]int{1, 2, 3, 4, 5}
+	for i := 1; i < len(test)+1; i++ {
+		fmt.Println(i)
+	}
 }
