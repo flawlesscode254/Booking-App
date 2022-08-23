@@ -98,4 +98,11 @@ func main() {
 	} else {
 		fmt.Println(true)
 	}
+
+	// Switch Statements
+	var won = 23
+	switch won {
+	case 24:
+		fmt.Println(true)
+	}
 }
